@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.back-way {
+  margin: 20px 10px;
+}
+
+:root {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: black;
+}
+
+input {
+  margin: 0 8px 32px 10px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+}
+
+button {
+  border-radius: 8px;
+  border: 0;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+
+  background: #4e75ff;
+  color: #fff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-left: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value {
+}
+
+.label {
+}

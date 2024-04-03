@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.back-way {
+  margin: 0 0 20px 0;
+}
+
 :root {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -5,13 +13,4 @@
   font-weight: 400;
 
   color: black;
-}
-
-.tasks {
-  margin: 0;
-}
-
-.task-link {
-  text-decoration: none;
-  color: inherit;
 }
