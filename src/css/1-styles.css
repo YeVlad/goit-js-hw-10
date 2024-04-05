@@ -7,16 +7,18 @@
 }
 
 :root {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
+  letter-spacing: 0.04em;
 
-  color: black;
+  color: #2e2f42;
 }
 
 input {
   margin: 0 8px 32px 10px;
+  padding-left: 16px;
 
   border: 1px solid #808080;
   border-radius: 4px;
@@ -33,6 +35,20 @@ button {
 
   background: #4e75ff;
   color: #fff;
+
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+button:disabled {
+  color: #989898;
+  background: #cfcfcf;
+  cursor: no-drop;
 }
 
 .timer {
@@ -44,12 +60,15 @@ button {
 .field {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .value {
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 .label {
+  font-size: inherit;
+  text-transform: uppercase;
 }
