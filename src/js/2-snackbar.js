@@ -52,11 +52,9 @@ function doPromise(event) {
   }).then(
     ok => {
       iziToast.show(ok);
-      console.log(`✅ Fulfilled promise in ${delay}ms`);
     },
     error => {
       iziToast.show(error);
-      console.log(`❌ Rejected promise in ${delay}ms`);
     }
   );
 }
